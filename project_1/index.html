@@ -3,10 +3,29 @@
 <head>
 	<title>Music in the Machines - Project 1</title>
 	<!-- link an external stylesheet or add your style tags here -->
+	<link rel='stylesheet' type = 'text/css' href="app.css">
 </head>
 <body>
+
 	<!-- add your heading here -->
+	<title>Music extravagonzo</title>
+	<center>
+		<h1>Music player</h1>
+	</center>
+
+	<audio id='aud'>
+		<source src = 'La-traviata-opera.mp3'>
+		</audio>
+		<center>
+	<button id ='play'>Play</button>
+	<button id ='pause'>Pause</button>
+	<button id='mute'>mute</button>
+	<button id ='unmute'>unmute</button>
+</center>
+<h2>Volume</h2>
+<input id ='sld' type='range' min='0' max = '1'>
 	<!-- create an audio tag and give it this source: La-traviata-opera.mp3 -->
+	<script type="text/javascript" src='script.js'></script>
 	<!-- add your scripts tags here -->
 </body>
 </html>
